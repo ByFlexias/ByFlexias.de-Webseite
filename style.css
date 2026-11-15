@@ -781,6 +781,52 @@ body {
     color: #fff;
 }
 
+.legal-main {
+    min-height: calc(100vh - 65px);
+    padding: 4rem 1.5rem;
+    background:
+        radial-gradient(600px 300px at 15% 0, rgba(76, 195, 255, 0.1), transparent 70%),
+        var(--bg);
+}
+
+.legal-content {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: clamp(1.5rem, 5vw, 3.5rem);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.035);
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+}
+
+.legal-content .modes-eyebrow {
+    margin: 0 0 0.5rem;
+}
+
+.legal-content .modes-title {
+    margin: 0 0 2rem;
+}
+
+.legal-content h2 {
+    margin: 2rem 0 0.6rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.legal-content p {
+    margin: 0 0 1rem;
+}
+
+.legal-content a {
+    color: var(--blue);
+    overflow-wrap: anywhere;
+}
+
+.legal-footer {
+    margin-top: 0;
+}
+
 /* Promo-Karte */
 .promo {
     position: fixed;
